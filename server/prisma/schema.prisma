@@ -12,3 +12,97 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+
+model Users {
+  userID   String  @id
+  name     String
+  email    String  @unique
+  password String
+  Orders   Orders[]
+}
+
+model products {
+  productID      String  @id
+  name           String
+  category       String
+  price          Decimal
+  expirationDate DateTime
+  stockQuantity  Int
+  Orders         Orders[]
+  Stocks         stocks[]
+  ReleasedSummary releasedSummary[]
+  ShortExpirySummary shortExpirySummary[]
+}
+
+model stocks {
+  stockID     String  @id
+  productID   String
+  productName String
+  category    String
+  timestamp   DateTime
+  quantity    Int
+  totalAmount Decimal
+  product     products @relation(fields: [productID], references: [productID])
+}
+
+model Orders {
+  orderID     String  @id
+  productID   String
+  userID      String
+  quantity    Int
+  orderStatus String
+  ward        String
+  timestamp   DateTime
+  user        Users   @relation(fields: [userID], references: [userID])
+  product     products @relation(fields: [productID], references: [productID])
+
+  Released released[]
+}
+
+model released {
+  releasedID  String  @id
+  orderID     String
+  releasedBy  String
+  receivedBy  String
+  timestamp   DateTime
+  ward        String
+  category    String
+  orders      Orders  @relation(fields: [orderID], references: [orderID])
+}
+
+model releasedByCategory {
+  releasedID  BigInt @id
+  date        DateTime
+  category    String
+}
+
+model releasedSummary {
+  releasedID  String  @id
+  productID   String
+  quantity    Int
+  releaseToWard String
+  category    String
+  timestamp   DateTime
+  product     products @relation(fields: [productID], references: [productID])
+}
+
+model remainingFullStock {
+  productID   String  @id
+  productName String
+  category    String
+  amount      Int
+  timestamp   DateTime
+  ward        String
+}
+
+model shortExpirySummary {
+  expiryID      String  @id
+  productID     String
+  productName   String
+  expirationDate DateTime
+  ward          String
+  timestamp     DateTime
+  category      String
+  product       products @relation(fields: [productID], references: [productID])
+}

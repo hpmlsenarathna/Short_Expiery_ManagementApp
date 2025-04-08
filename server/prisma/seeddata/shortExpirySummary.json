@@ -1,0 +1,137 @@
+[
+  {
+    "productId": "001A",
+    "releasedId": "001A",
+    "productName": "Paracetamol",
+    "expiryDate": "2025-06-15",
+    "date": "2022-08-23T23:59:13Z",
+    "category": "Bulk",
+    "totalReleasedDrugs": 4074
+  },
+  {
+    "productId": "002B",
+    "releasedId": "002B",
+    "productName": "Amoxicillin",
+    "expiryDate": "2025-09-22",
+    "date": "2021-12-28T17:03:47Z",
+    "category": "BHT",
+    "totalReleasedDrugs": 8251
+  },
+  {
+    "productId": "003C",
+    "releasedId": "003C",
+    "productName": "Ibuprofen",
+    "expiryDate": "2025-11-10",
+    "date": "2021-09-18T23:26:30Z",
+    "category": "BHT",
+    "totalReleasedDrugs": 4186
+  },
+  {
+    "productId": "004D",
+    "releasedId": "004D",
+    "productName": "Omeprazole",
+    "expiryDate": "2025-04-30",
+    "date": "2022-01-08T04:26:56Z",
+    "category": "Bulk",
+    "totalReleasedDrugs": 4945
+  },
+  {
+    "productId": "005E",
+    "releasedId": "005E",
+    "productName": "Cetirizine",
+    "expiryDate": "2025-07-18",
+    "date": "2020-08-31T11:45:23Z",
+    "category": "BHT",
+    "totalReleasedDrugs": 3557
+  },
+  {
+    "productId": "006F",
+    "releasedId": "006F",
+    "productName": "Loratadine",
+    "expiryDate": "2025-03-25",
+    "date": "2020-04-15T06:57:51Z",
+    "category": "Bulk",
+    "totalReleasedDrugs": 4376
+  },
+  {
+    "productId": "007G",
+    "releasedId": "007G",
+    "productName": "Metformin",
+    "expiryDate": "2025-12-20",
+    "date": "2021-11-05T16:10:48Z",
+    "category": "BHT",
+    "totalReleasedDrugs": 7531
+  },
+  {
+    "productId": "008H",
+    "releasedId": "008H",
+    "productName": "Atorvastatin",
+    "expiryDate": "2025-08-10",
+    "date": "2020-11-18T23:52:46Z",
+    "category": "Necessary",
+    "totalReleasedDrugs": 2503
+  },
+  {
+    "productId": "009J",
+    "releasedId": "009J",
+    "productName": "Simvastatin",
+    "expiryDate": "2025-05-15",
+    "date": "2020-05-10T17:55:37Z",
+    "category": "BHT",
+    "totalReleasedDrugs": 9506
+  },
+  {
+    "productId": "010K",
+    "releasedId": "010K",
+    "productName": "Diazepam",
+    "expiryDate": "2025-10-25",
+    "date": "2022-02-18T23:26:53Z",
+    "category": "BHT",
+    "totalReleasedDrugs": 4351
+  },
+  {
+    "productId": "011L",
+    "releasedId": "011L",
+    "productName": "Ciprofloxacin",
+    "expiryDate": "2025-07-30",
+    "date": "2022-01-10T03:25:06Z",
+    "category": "Necessary",
+    "totalReleasedDrugs": 1197
+  },
+  {
+    "productId": "012M",
+    "releasedId": "012M",
+    "productName": "Ranitidine",
+    "expiryDate": "2025-09-15",
+    "date": "2022-04-24T18:53:13Z",
+    "category": "Bulk",
+    "totalReleasedDrugs": 5137
+  },
+  {
+    "productId": "013N",
+    "releasedId": "013N",
+    "productName": "Salbutamol",
+    "expiryDate": "2025-11-22",
+    "date": "2022-01-14T09:36:38Z",
+    "category": "BHT",
+    "totalReleasedDrugs": 7472
+  },
+  {
+    "productId": "014P",
+    "releasedId": "014P",
+    "productName": "Piriton",
+    "expiryDate": "2025-12-05",
+    "date": "2021-12-21T15:01:09Z",
+    "category": "BHT",
+    "totalReleasedDrugs": 7560
+  },
+  {
+    "productId": "015Q",
+    "releasedId": "015Q",
+    "productName": "Aspirin",
+    "expiryDate": "2025-04-18",
+    "date": "2022-04-01T15:50:39Z",
+    "category": "Bulk",
+    "totalReleasedDrugs": 2550
+  }
+]

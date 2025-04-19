@@ -1,290 +1,38 @@
 [
   {
-    "productId": "001A",
     "releasedId": "001A",
     "productName": "Paracetamol",
     "date": "2025-03-15T11:54:21Z",
-    "category": "Bulk",
-    "quantity": 48
+    "category": "Bulk"
   },
   {
-    "productId": "002C",
     "releasedId": "002C",
     "productName": "Piriton",
     "date": "2025-06-22T09:49:33Z",
-    "category": "BHT",
-    "quantity": 66
+    "category": "BHT"
   },
   {
-    "productId": "003D",
-    "releasedId": "003D",
-    "productName": "Amoxicillin",
-    "date": "2025-05-14T09:26:56Z",
-    "category": "BHT",
-    "quantity": 63
-  },
-  {
-    "productId": "004E",
-    "releasedId": "004E",
-    "productName": "Ibuprofen",
-    "date": "2025-07-08T05:24:15Z",
-    "category": "BHT",
-    "quantity": 77
-  },
-  {
-    "productId": "005F",
-    "releasedId": "005F",
-    "productName": "Aspirin",
-    "date": "2025-04-30T12:33:09Z",
-    "category": "Bulk",
-    "quantity": 67
-  },
-  {
-    "productId": "006G",
-    "releasedId": "006G",
-    "productName": "Cetirizine",
-    "date": "2025-09-12T22:08:30Z",
-    "category": "BHT",
-    "quantity": 12
-  },
-  {
-    "productId": "007H",
-    "releasedId": "007H",
-    "productName": "Omeprazole",
-    "date": "2025-06-18T08:03:25Z",
-    "category": "Bulk",
-    "quantity": 57
-  },
-  {
-    "productId": "008J",
-    "releasedId": "008J",
-    "productName": "Loratadine",
-    "date": "2025-07-25T00:15:57Z",
-    "category": "Bulk",
-    "quantity": 34
-  },
-  {
-    "productId": "009K",
-    "releasedId": "009K",
-    "productName": "Metformin",
-    "date": "2025-11-20T19:29:15Z",
-    "category": "BHT",
-    "quantity": 43
-  },
-  {
-    "productId": "010L",
-    "releasedId": "010L",
-    "productName": "Diazepam",
-    "date": "2025-07-10T04:49:15Z",
-    "category": "BHT",
-    "quantity": 62
-  },
-  {
-    "productId": "011M",
     "releasedId": "011M",
     "productName": "Ciprofloxacin",
     "date": "2025-10-05T18:41:07Z",
-    "category": "Necessary drugs",
-    "quantity": 28
+    "category": "Necessary drugs"
   },
   {
-    "productId": "012N",
-    "releasedId": "012N",
-    "productName": "Ranitidine",
-    "date": "2025-01-15T03:49:45Z",
-    "category": "Bulk",
-    "quantity": 65
-  },
-  {
-    "productId": "013P",
-    "releasedId": "013P",
-    "productName": "Atorvastatin",
-    "date": "2025-12-10T19:25:39Z",
-    "category": "BHT",
-    "quantity": 54
-  },
-  {
-    "productId": "014Q",
-    "releasedId": "014Q",
-    "productName": "Simvastatin",
-    "date": "2025-03-22T12:50:41Z",
-    "category": "BHT",
-    "quantity": 97
-  },
-  {
-    "productId": "015R",
-    "releasedId": "015R",
-    "productName": "Losartan",
-    "date": "2025-04-18T21:27:57Z",
-    "category": "Necessary drugs",
-    "quantity": 94
-  },
-  {
-    "productId": "016S",
-    "releasedId": "016S",
-    "productName": "Amlodipine",
-    "date": "2025-05-28T09:55:13Z",
-    "category": "BHT",
-    "quantity": 24
-  },
-  {
-    "productId": "017T",
-    "releasedId": "017T",
-    "productName": "Hydrochlorothiazide",
-    "date": "2025-06-21T16:48:42Z",
-    "category": "Bulk",
-    "quantity": 59
-  },
-  {
-    "productId": "018U",
-    "releasedId": "018U",
-    "productName": "Furosemide",
-    "date": "2025-09-05T05:02:44Z",
-    "category": "Bulk",
-    "quantity": 54
-  },
-  {
-    "productId": "019V",
-    "releasedId": "019V",
-    "productName": "Levothyroxine",
-    "date": "2025-07-08T22:12:16Z",
-    "category": "Bulk",
-    "quantity": 25
-  },
-  {
-    "productId": "020W",
     "releasedId": "020W",
     "productName": "Prednisone",
     "date": "2025-08-30T11:48:59Z",
-    "category": "Necessary drugs",
-    "quantity": 54
+    "category": "Necessary drugs"
   },
   {
-    "productId": "021X",
-    "releasedId": "021X",
-    "productName": "Albuterol",
-    "date": "2025-09-20T06:41:32Z",
-    "category": "Necessary drugs",
-    "quantity": 37
-  },
-  {
-    "productId": "022Y",
-    "releasedId": "022Y",
-    "productName": "Gabapentin",
-    "date": "2025-06-15T13:00:11Z",
-    "category": "Bulk",
-    "quantity": 96
-  },
-  {
-    "productId": "023Z",
-    "releasedId": "023Z",
-    "productName": "Tramadol",
-    "date": "2025-01-10T17:10:35Z",
-    "category": "Bulk",
-    "quantity": 85
-  },
-  {
-    "productId": "024AA",
     "releasedId": "024AA",
     "productName": "Sertraline",
     "date": "2025-08-25T13:33:02Z",
-    "category": "BHT",
-    "quantity": 55
+    "category": "BHT"
   },
   {
-    "productId": "025AB",
-    "releasedId": "025AB",
-    "productName": "Fluoxetine",
-    "date": "2025-12-28T06:16:20Z",
-    "category": "BHT",
-    "quantity": 7
-  },
-  {
-    "productId": "026AC",
-    "releasedId": "026AC",
-    "productName": "Diclofenac",
-    "date": "2025-09-15T10:01:41Z",
-    "category": "Necessary drugs",
-    "quantity": 90
-  },
-  {
-    "productId": "027AD",
-    "releasedId": "027AD",
-    "productName": "Naproxen",
-    "date": "2025-09-08T16:42:29Z",
-    "category": "Bulk",
-    "quantity": 99
-  },
-  {
-    "productId": "028AE",
-    "releasedId": "028AE",
-    "productName": "Warfarin",
-    "date": "2025-07-10T08:02:52Z",
-    "category": "BHT",
-    "quantity": 52
-  },
-  {
-    "productId": "029AF",
-    "releasedId": "029AF",
-    "productName": "Insulin",
-    "date": "2025-12-05T05:58:17Z",
-    "category": "Necessary drugs",
-    "quantity": 71
-  },
-  {
-    "productId": "030AG",
-    "releasedId": "030AG",
-    "productName": "Morphine",
-    "date": "2025-08-15T13:03:56Z",
-    "category": "BHT",
-    "quantity": 4
-  },
-  {
-    "productId": "031AH",
-    "releasedId": "031AH",
-    "productName": "Codeine",
-    "date": "2025-09-30T19:24:50Z",
-    "category": "BHT",
-    "quantity": 7
-  },
-  {
-    "productId": "032AI",
-    "releasedId": "032AI",
-    "productName": "Methotrexate",
-    "date": "2025-03-05T09:33:35Z",
-    "category": "Bulk",
-    "quantity": 48
-  },
-  {
-    "productId": "033AJ",
-    "releasedId": "033AJ",
-    "productName": "Cyclobenzaprine",
-    "date": "2025-01-12T08:48:51Z",
-    "category": "Necessary drugs",
-    "quantity": 15
-  },
-  {
-    "productId": "034AK",
     "releasedId": "034AK",
     "productName": "Carvedilol",
     "date": "2025-03-15T11:57:57Z",
-    "category": "Necessary drugs",
-    "quantity": 94
-  },
-  {
-    "productId": "035AL",
-    "releasedId": "035AL",
-    "productName": "Metoprolol",
-    "date": "2025-02-20T10:50:32Z",
-    "category": "Bulk",
-    "quantity": 94
-  },
-  {
-    "productId": "122AB",
-    "releasedId": "122AB",
-    "productName": "Thiamine",
-    "date": "2025-08-18T13:25:33Z",
-    "category": "BHT",
-    "quantity": 10
+    "category": "Necessary drugs"
   }
 ]

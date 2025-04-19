@@ -1,152 +1,44 @@
 [
   {
-    "expiryId": "002A",
-    "productId": "002A",
+    "productId": "P007",
     "productName": "Salbutamol",
-    "expiryDay": "2024-06-15",
-    "quantity": 229,
-    "timestamp": "2023-11-02T04:03:00Z",
-    "category": "Necessary",
-    "wardNo": 5
+    "stockQuantity": 229,
+    "ward": 5,
+    "timestamp": "2023-11-02T04:03:00Z"
   },
   {
-    "expiryId": "009B",
-    "productId": "009B",
+    "productId": "P001",
     "productName": "Paracetamol",
-    "expiryDay": "2024-09-22",
-    "quantity": 241,
-    "timestamp": "2023-08-17T19:53:36Z",
-    "category": "Bulk",
-    "wardNo": 3
+    "stockQuantity": 450,
+    "ward": 3,
+    "timestamp": "2023-12-10T09:15:00Z"
   },
   {
-    "expiryId": "980AB",
-    "productId": "980AB",
-    "productName": "Ibuprofen",
-    "expiryDay": "2025-01-10",
-    "quantity": 699,
-    "timestamp": "2023-11-21T15:03:18Z",
-    "category": "BHT",
-    "wardNo": 7
-  },
-  {
-    "expiryId": "45CD",
-    "productId": "45CD",
+    "productId": "P002",
     "productName": "Amoxicillin",
-    "expiryDay": "2024-03-30",
-    "quantity": 182,
-    "timestamp": "2023-05-17T20:20:03Z",
-    "category": "Necessary",
-    "wardNo": 2
+    "stockQuantity": 310,
+    "ward": 4,
+    "timestamp": "2023-10-18T14:22:00Z"
   },
   {
-    "expiryId": "67EF",
-    "productId": "67EF",
-    "productName": "Omeprazole",
-    "expiryDay": "2024-07-18",
-    "quantity": 863,
-    "timestamp": "2023-06-14T15:17:34Z",
-    "category": "Bulk",
-    "wardNo": 4
-  },
-  {
-    "expiryId": "89GH",
-    "productId": "89GH",
-    "productName": "Loratadine",
-    "expiryDay": "2024-11-05",
-    "quantity": 985,
-    "timestamp": "2023-10-27T18:59:51Z",
-    "category": "BHT",
-    "wardNo": 1
-  },
-  {
-    "expiryId": "23IJ",
-    "productId": "23IJ",
+    "productId": "P003",
     "productName": "Cetirizine",
-    "expiryDay": "2024-05-20",
-    "quantity": 607,
-    "timestamp": "2023-06-17T19:16:31Z",
-    "category": "Necessary",
-    "wardNo": 6
+    "stockQuantity": 150,
+    "ward": 2,
+    "timestamp": "2023-11-28T11:00:00Z"
   },
   {
-    "expiryId": "56KL",
-    "productId": "56KL",
-    "productName": "Aspirin",
-    "expiryDay": "2025-02-14",
-    "quantity": 93,
-    "timestamp": "2024-01-12T16:37:28Z",
-    "category": "Bulk",
-    "wardNo": 8
+    "productId": "P005",
+    "productName": "Ceftriaxone",
+    "stockQuantity": 90,
+    "ward": 1,
+    "timestamp": "2023-12-01T16:40:00Z"
   },
   {
-    "expiryId": "78MN",
-    "productId": "78MN",
-    "productName": "Metformin",
-    "expiryDay": "2024-10-30",
-    "quantity": 482,
-    "timestamp": "2023-11-08T18:16:52Z",
-    "category": "BHT",
-    "wardNo": 3
-  },
-  {
-    "expiryId": "90OP",
-    "productId": "90OP",
-    "productName": "Atorvastatin",
-    "expiryDay": "2024-12-25",
-    "quantity": 285,
-    "timestamp": "2023-12-21T22:49:11Z",
-    "category": "Necessary",
-    "wardNo": 5
-  },
-  {
-    "expiryId": "12QR",
-    "productId": "12QR",
-    "productName": "Simvastatin",
-    "expiryDay": "2024-08-12",
-    "quantity": 219,
-    "timestamp": "2023-11-21T15:03:43Z",
-    "category": "Bulk",
-    "wardNo": 7
-  },
-  {
-    "expiryId": "34ST",
-    "productId": "34ST",
-    "productName": "Losartan",
-    "expiryDay": "2025-03-20",
-    "quantity": 286,
-    "timestamp": "2024-03-01T17:35:27Z",
-    "category": "BHT",
-    "wardNo": 2
-  },
-  {
-    "expiryId": "56UV",
-    "productId": "56UV",
-    "productName": "Hydrochlorothiazide",
-    "expiryDay": "2024-04-15",
-    "quantity": 107,
-    "timestamp": "2023-06-27T12:09:45Z",
-    "category": "Necessary",
-    "wardNo": 4
-  },
-  {
-    "expiryId": "78WX",
-    "productId": "78WX",
-    "productName": "Levothyroxine",
-    "expiryDay": "2024-09-05",
-    "quantity": 195,
-    "timestamp": "2023-07-06T02:50:19Z",
-    "category": "Bulk",
-    "wardNo": 1
-  },
-  {
-    "expiryId": "90YZ",
-    "productId": "90YZ",
-    "productName": "Albuterol",
-    "expiryDay": "2024-02-28",
-    "quantity": 339,
-    "timestamp": "2023-03-18T01:14:42Z",
-    "category": "BHT",
-    "wardNo": 6
+    "productId": "P006",
+    "productName": "Loratadine",
+    "stockQuantity": 175,
+    "ward": 6,
+    "timestamp": "2023-12-20T07:30:00Z"
   }
 ]

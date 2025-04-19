@@ -1,108 +1,47 @@
 [
-    {
-      "releaseId": "001A",
-      "productName": "Paracetamol",
-      "date": "2025-03-15T11:54:21Z",
-      "category": "Bulk",
-      "quantity": 48
-    },
-    {
-      "releaseId": "002C",
-      "productName": "Piriton",
-      "date": "2025-06-22T09:49:33Z",
-      "category": "BHT",
-      "quantity": 66
-    },
-    {
-      "releaseId": "003D",
-      "productName": "Amoxicillin",
-      "date": "2025-05-14T09:26:56Z",
-      "category": "BHT",
-      "quantity": 63
-    },
-    {
-      "releaseId": "004E",
-      "productName": "Ibuprofen",
-      "date": "2025-07-08T05:24:15Z",
-      "category": "BHT",
-      "quantity": 77
-    },
-    {
-      "releaseId": "005F",
-      "productName": "Aspirin",
-      "date": "2025-04-30T12:33:09Z",
-      "category": "Bulk",
-      "quantity": 67
-    },
-    {
-      "releaseId": "006G",
-      "productName": "Cetirizine",
-      "date": "2025-09-12T22:08:30Z",
-      "category": "BHT",
-      "quantity": 12
-    },
-    {
-      "releaseId": "007H",
-      "productName": "Omeprazole",
-      "date": "2025-06-18T08:03:25Z",
-      "category": "Bulk",
-      "quantity": 57
-    },
-    {
-      "releaseId": "008J",
-      "productName": "Loratadine",
-      "date": "2025-07-25T00:15:57Z",
-      "category": "Bulk",
-      "quantity": 34
-    },
-    {
-      "releaseId": "009K",
-      "productName": "Metformin",
-      "date": "2025-11-20T19:29:15Z",
-      "category": "BHT",
-      "quantity": 43
-    },
-    {
-      "releaseId": "010L",
-      "productName": "Diazepam",
-      "date": "2025-07-10T04:49:15Z",
-      "category": "BHT",
-      "quantity": 62
-    },
-    {
-      "releaseId": "011M",
-      "productName": "Ciprofloxacin",
-      "date": "2025-10-05T18:41:07Z",
-      "category": "Necessary drugs",
-      "quantity": 28
-    },
-    {
-      "releaseId": "012N",
-      "productName": "Ranitidine",
-      "date": "2025-01-15T03:49:45Z",
-      "category": "Bulk",
-      "quantity": 65
-    },
-    {
-      "releaseId": "013P",
-      "productName": "Atorvastatin",
-      "date": "2025-12-10T19:25:39Z",
-      "category": "BHT",
-      "quantity": 54
-    },
-    {
-      "releaseId": "014Q",
-      "productName": "Simvastatin",
-      "date": "2025-03-22T12:50:41Z",
-      "category": "BHT",
-      "quantity": 97
-    },
-    {
-      "releaseId": "122AB",
-      "productName": "Thiamine",
-      "date": "2025-08-18T13:25:33Z",
-      "category": "BHT",
-      "quantity": 10
-    }
-  ]
-  
+  {
+    "releaseId": "002C",
+    "productId": "002C",
+    "productName": "Piriton",
+    "releaseDate": "2025-06-22T09:49:33Z",
+    "category": "BHT",
+    "ward": 2,
+    "releasedQuantity": 66
+  },
+  {
+    "releaseId": "003D",
+    "productId": "003D",
+    "productName": "Paracetamol",
+    "releaseDate": "2025-07-10T10:11:12Z",
+    "category": "Necessary",
+    "ward": 3,
+    "releasedQuantity": 150
+  },
+  {
+    "releaseId": "004E",
+    "productId": "004E",
+    "productName": "Ibuprofen",
+    "releaseDate": "2025-07-15T12:00:00Z",
+    "category": "Bulk",
+    "ward": 4,
+    "releasedQuantity": 80
+  },
+  {
+    "releaseId": "005F",
+    "productId": "005F",
+    "productName": "Aspirin",
+    "releaseDate": "2025-08-02T14:30:00Z",
+    "category": "BHT",
+    "ward": 1,
+    "releasedQuantity": 120
+  },
+  {
+    "releaseId": "006G",
+    "productId": "006G",
+    "productName": "Salbutamol",
+    "releaseDate": "2025-08-15T09:00:00Z",
+    "category": "Necessary",
+    "ward": 5,
+    "releasedQuantity": 180
+  }
+]

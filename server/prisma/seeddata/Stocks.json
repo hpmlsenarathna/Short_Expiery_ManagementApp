@@ -1,302 +1,44 @@
 [
-    {
-      "productId": "001A",
-      "productName": "Amoxicillin",
-      "category": "Bulk",
-      "quantity": 875,
-      "timestamp": "2023-05-27T05:20:14Z",
-      "ward": "Ward A",
-      "totalPercentage": 7599849.58,
-      "changePercentage": -50.31
-    },
-    {
-      "productId": "002C",
-      "productName": "Piriton",
-      "category": "BHT",
-      "quantity": 471,
-      "timestamp": "2023-12-05T05:52:50Z",
-      "ward": "Ward B",
-      "totalPercentage": 5701783.0,
-      "changePercentage": -89.63
-    },
-    {
-      "productId": "003D",
-      "productName": "Paracetamol",
-      "category": "Bulk",
-      "quantity": 37,
-      "timestamp": "2023-03-20T06:11:24Z",
-      "ward": "Ward C",
-      "totalPercentage": 2875081.56,
-      "changePercentage": 97.28
-    },
-    {
-      "productId": "004E",
-      "productName": "Ibuprofen",
-      "category": "BHT",
-      "quantity": 201,
-      "timestamp": "2023-12-16T17:22:23Z",
-      "ward": "Ward D",
-      "totalPercentage": 5887134.05,
-      "changePercentage": 84.43
-    },
-    {
-      "productId": "005F",
-      "productName": "Aspirin",
-      "category": "Bulk",
-      "quantity": 789,
-      "timestamp": "2023-03-26T07:09:45Z",
-      "ward": "Ward E",
-      "totalPercentage": 6700381.67,
-      "changePercentage": -15.4
-    },
-    {
-      "productId": "006G",
-      "productName": "Cetirizine",
-      "category": "BHT",
-      "quantity": 251,
-      "timestamp": "2023-09-12T18:48:33Z",
-      "ward": "Ward F",
-      "totalPercentage": 3703183.4,
-      "changePercentage": 93.36
-    },
-    {
-      "productId": "007H",
-      "productName": "Omeprazole",
-      "category": "Bulk",
-      "quantity": 418,
-      "timestamp": "2023-07-13T19:13:53Z",
-      "ward": "Ward G",
-      "totalPercentage": 8183876.36,
-      "changePercentage": 10.75
-    },
-    {
-      "productId": "008J",
-      "productName": "Loratadine",
-      "category": "BHT",
-      "quantity": 926,
-      "timestamp": "2023-04-17T20:13:19Z",
-      "ward": "Ward H",
-      "totalPercentage": 6771390.73,
-      "changePercentage": 8.17
-    },
-    {
-      "productId": "009K",
-      "productName": "Metformin",
-      "category": "Bulk",
-      "quantity": 754,
-      "timestamp": "2023-12-30T11:00:31Z",
-      "ward": "Ward I",
-      "totalPercentage": 5362805.15,
-      "changePercentage": -69.92
-    },
-    {
-      "productId": "010L",
-      "productName": "Diazepam",
-      "category": "BHT",
-      "quantity": 365,
-      "timestamp": "2024-01-02T01:46:59Z",
-      "ward": "Ward J",
-      "totalPercentage": 7901696.36,
-      "changePercentage": -8.22
-    },
-    {
-      "productId": "011M",
-      "productName": "Ciprofloxacin",
-      "category": "Bulk",
-      "quantity": 975,
-      "timestamp": "2023-07-07T19:23:16Z",
-      "ward": "Ward K",
-      "totalPercentage": 592809.08,
-      "changePercentage": -19.9
-    },
-    {
-      "productId": "012N",
-      "productName": "Ranitidine",
-      "category": "BHT",
-      "quantity": 286,
-      "timestamp": "2023-07-10T16:48:15Z",
-      "ward": "Ward L",
-      "totalPercentage": 787656.13,
-      "changePercentage": -85.81
-    },
-    {
-      "productId": "013P",
-      "productName": "Atorvastatin",
-      "category": "Bulk",
-      "quantity": 71,
-      "timestamp": "2024-01-01T16:20:10Z",
-      "ward": "Ward M",
-      "totalPercentage": 1358410.16,
-      "changePercentage": 81.52
-    },
-    {
-      "productId": "014Q",
-      "productName": "Simvastatin",
-      "category": "BHT",
-      "quantity": 963,
-      "timestamp": "2024-01-08T04:29:17Z",
-      "ward": "Ward N",
-      "totalPercentage": 9262819.3,
-      "changePercentage": -13.2
-    },
-    {
-      "productId": "015R",
-      "productName": "Losartan",
-      "category": "Bulk",
-      "quantity": 614,
-      "timestamp": "2023-07-24T18:44:29Z",
-      "ward": "Ward O",
-      "totalPercentage": 2892692.95,
-      "changePercentage": 4.89
-    },
-    {
-      "productId": "016S",
-      "productName": "Amlodipine",
-      "category": "BHT",
-      "quantity": 193,
-      "timestamp": "2024-02-07T16:49:38Z",
-      "ward": "Ward P",
-      "totalPercentage": 8176245.28,
-      "changePercentage": -80.84
-    },
-    {
-      "productId": "017T",
-      "productName": "Hydrochlorothiazide",
-      "category": "Bulk",
-      "quantity": 585,
-      "timestamp": "2023-11-02T15:29:19Z",
-      "ward": "Ward Q",
-      "totalPercentage": 6376329.63,
-      "changePercentage": -17.35
-    },
-    {
-      "productId": "018U",
-      "productName": "Furosemide",
-      "category": "BHT",
-      "quantity": 938,
-      "timestamp": "2023-08-25T13:45:04Z",
-      "ward": "Ward R",
-      "totalPercentage": 490177.73,
-      "changePercentage": -65.94
-    },
-    {
-      "productId": "019V",
-      "productName": "Levothyroxine",
-      "category": "Bulk",
-      "quantity": 388,
-      "timestamp": "2023-11-16T18:22:18Z",
-      "ward": "Ward S",
-      "totalPercentage": 8033241.77,
-      "changePercentage": -81.26
-    },
-    {
-      "productId": "020W",
-      "productName": "Prednisone",
-      "category": "BHT",
-      "quantity": 463,
-      "timestamp": "2023-07-17T01:23:37Z",
-      "ward": "Ward T",
-      "totalPercentage": 8113334.96,
-      "changePercentage": 18.99
-    },
-    {
-      "productId": "021X",
-      "productName": "Albuterol",
-      "category": "Bulk",
-      "quantity": 893,
-      "timestamp": "2023-09-27T23:20:39Z",
-      "ward": "Ward U",
-      "totalPercentage": 2083304.59,
-      "changePercentage": -80.93
-    },
-    {
-      "productId": "022Y",
-      "productName": "Gabapentin",
-      "category": "BHT",
-      "quantity": 22,
-      "timestamp": "2023-11-29T20:52:03Z",
-      "ward": "Ward V",
-      "totalPercentage": 6278248.14,
-      "changePercentage": 8.44
-    },
-    {
-      "productId": "023Z",
-      "productName": "Tramadol",
-      "category": "Bulk",
-      "quantity": 70,
-      "timestamp": "2023-08-01T12:30:43Z",
-      "ward": "Ward W",
-      "totalPercentage": 5013546.73,
-      "changePercentage": -99.52
-    },
-    {
-      "productId": "024AA",
-      "productName": "Sertraline",
-      "category": "BHT",
-      "quantity": 208,
-      "timestamp": "2024-01-17T21:08:06Z",
-      "ward": "Ward X",
-      "totalPercentage": 7883690.1,
-      "changePercentage": -95.76
-    },
-    {
-      "productId": "025AB",
-      "productName": "Fluoxetine",
-      "category": "Bulk",
-      "quantity": 309,
-      "timestamp": "2024-01-21T00:14:36Z",
-      "ward": "Ward Y",
-      "totalPercentage": 9402337.34,
-      "changePercentage": 81.92
-    },
-    {
-      "productId": "026AC",
-      "productName": "Diclofenac",
-      "category": "BHT",
-      "quantity": 97,
-      "timestamp": "2023-06-01T18:39:59Z",
-      "ward": "Ward Z",
-      "totalPercentage": 4571470.93,
-      "changePercentage": -19.34
-    },
-    {
-      "productId": "027AD",
-      "productName": "Naproxen",
-      "category": "Bulk",
-      "quantity": 727,
-      "timestamp": "2024-02-06T03:40:01Z",
-      "ward": "Ward AA",
-      "totalPercentage": 4718798.68,
-      "changePercentage": 95.35
-    },
-    {
-      "productId": "028AE",
-      "productName": "Warfarin",
-      "category": "BHT",
-      "quantity": 246,
-      "timestamp": "2024-01-28T09:04:52Z",
-      "ward": "Ward AB",
-      "totalPercentage": 1087744.03,
-      "changePercentage": 24.69
-    },
-    {
-      "productId": "029AF",
-      "productName": "Insulin",
-      "category": "Bulk",
-      "quantity": 193,
-      "timestamp": "2023-08-07T10:29:19Z",
-      "ward": "Ward AC",
-      "totalPercentage": 3256718.55,
-      "changePercentage": 68.1
-    },
-    {
-      "productId": "030AG",
-      "productName": "Morphine",
-      "category": "BHT",
-      "quantity": 265,
-      "timestamp": "2023-11-19T02:00:54Z",
-      "ward": "Ward AD",
-      "totalPercentage": 826579.41,
-      "changePercentage": -87.81
-    }
-  ]
+  {
+    "productId": "001A",
+    "productName": "Amoxicillin",
+    "category": "Bulk",
+    "stockQuantity": 320,
+    "timestamp": "2023-12-10T09:15:00Z"
+  },
+  {
+    "productId": "002C",
+    "productName": "Piriton",
+    "category": "BHT",
+    "stockQuantity": 471,
+    "timestamp": "2025-02-01T13:04:43Z"
+  },
+  {
+    "productId": "003B",
+    "productName": "Paracetamol",
+    "category": "Necessary drugs",
+    "stockQuantity": 650,
+    "timestamp": "2023-11-05T07:30:00Z"
+  },
+  {
+    "productId": "004D",
+    "productName": "Ciprofloxacin",
+    "category": "Bulk",
+    "stockQuantity": 290,
+    "timestamp": "2024-04-12T11:25:00Z"
+  },
+  {
+    "productId": "005E",
+    "productName": "Metronidazole",
+    "category": "Necessary drugs",
+    "stockQuantity": 410,
+    "timestamp": "2024-06-28T08:55:00Z"
+  },
+  {
+    "productId": "006F",
+    "productName": "Loratadine",
+    "category": "BHT",
+    "stockQuantity": 175,
+    "timestamp": "2023-10-20T14:00:00Z"
+  }
+]

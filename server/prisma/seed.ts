@@ -1,23 +1,18 @@
 import { PrismaClient } from "@prisma/client";
 import fs from "fs";
 import path from "path";
+import 'dotenv/config';
+
 const prisma = new PrismaClient();
 
-async function deleteAllData(orderedFileNames: string[]) {
-  const modelNames = orderedFileNames.map((fileName) => {
-    const modelName = path.basename(fileName, path.extname(fileName));
-    return modelName.charAt(0).toUpperCase() + modelName.slice(1);
-  });
-
-  for (const modelName of modelNames) {
+async function deleteAllData(orderedModelNames: string[]) {
+  for (const modelName of orderedModelNames) {
     const model: any = prisma[modelName as keyof typeof prisma];
     if (model) {
       await model.deleteMany({});
-      console.log(`Cleared data from ${modelName}`);
+      console.log(`🧹 Cleared data from ${modelName}`);
     } else {
-      console.error(
-        `Model ${modelName} not found. Please ensure the model name is correctly specified.`
-      );
+      console.error(`❌ Model ${modelName} not found in Prisma Client`);
     }
   }
 }
@@ -25,44 +20,57 @@ async function deleteAllData(orderedFileNames: string[]) {
 async function main() {
   const dataDirectory = path.join(__dirname, "seedData");
 
-  const orderedFileNames = [
-    "orders.json",
-    "products.json",
-    "released.json",
-    "releasedByCategory.json",
-    "releasedSummary.json",
-    "remainingFullStock.json",
-    "shortExpirySummary.json",
-    "stocks.json",
-    "users.json",
+  // ORDER MATTERS: Seed models respecting foreign key constraints
+  const orderedModels = [
+    "releasedSummary",
+    "shortExpirySummary",
+    "releasedByCategory",
+    "remainingFullStock",
+    "stocks",
+    "products",
+    "orders",
+    "released",
+    "users"
   ];
 
-  await deleteAllData(orderedFileNames);
+  // Step 1: Delete all data (in reverse dependency order)
+  await deleteAllData(orderedModels.reverse());
 
-  for (const fileName of orderedFileNames) {
-    const filePath = path.join(dataDirectory, fileName);
+  // Step 2: Seed data (in correct dependency order)
+  for (const modelName of orderedModels) {
+    const filePath = path.join(dataDirectory, `${modelName}.json`);
+
+    if (!fs.existsSync(filePath)) {
+      console.warn(`⚠️ File not found: ${filePath}`);
+      continue;
+    }
+
     const jsonData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-    const modelName = path.basename(fileName, path.extname(fileName));
     const model: any = prisma[modelName as keyof typeof prisma];
 
     if (!model) {
-      console.error(`No Prisma model matches the file name: ${fileName}`);
+      console.error(`❌ No Prisma model matches: ${modelName}`);
       continue;
     }
 
     for (const data of jsonData) {
-      await model.create({
-        data,
-      });
+      try {
+        await model.create({ data });
+      } catch (e) {
+        console.error(`❌ Error seeding ${modelName}:`, e);
+      }
     }
 
-    console.log(`Seeded ${modelName} with data from ${fileName}`);
+    console.log(`✅ Seeded ${modelName} from ${modelName}.json`);
   }
 }
 
 main()
+  .then(() => {
+    console.log("🎉 Database seeded successfully");
+  })
   .catch((e) => {
-    console.error(e);
+    console.error("🔥 Seeding failed:", e);
   })
   .finally(async () => {
     await prisma.$disconnect();

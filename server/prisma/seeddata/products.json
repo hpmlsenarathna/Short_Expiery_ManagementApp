@@ -1,49 +1,49 @@
 [
   {
     "productId": "P001",
-    "productName": "Paracetamol",
+    "drugName": "Paracetamol",
     "mainTypeOfDrug": "BHT",
     "drugType": "Tablet",
     "stockQuantity": 120000
   },
   {
     "productId": "P002",
-    "productName": "Amoxicillin",
+    "drugName": "Amoxicillin",
     "mainTypeOfDrug": "Bulk",
     "drugType": "Capsule",
     "stockQuantity": 75000
   },
   {
     "productId": "P003",
-    "productName": "Cetirizine",
+    "drugName": "Cetirizine",
     "mainTypeOfDrug": "BHT",
     "drugType": "Tablet",
     "stockQuantity": 25000
   },
   {
     "productId": "P004",
-    "productName": "Ibuprofen",
+    "drugName": "Ibuprofen",
     "mainTypeOfDrug": "Bulk",
     "drugType": "Tablet",
     "stockQuantity": 48000
   },
   {
     "productId": "P005",
-    "productName": "Ceftriaxone",
+    "drugName": "Ceftriaxone",
     "mainTypeOfDrug": "Bulk",
     "drugType": "Injection",
     "stockQuantity": 20500
   },
   {
     "productId": "P006",
-    "productName": "Loratadine",
+    "drugName": "Loratadine",
     "mainTypeOfDrug": "BHT",
     "drugType": "Tablet",
     "stockQuantity": 18000
   },
   {
     "productId": "P007",
-    "productName": "Salbutamol",
+    "drugName": "Salbutamol",
     "mainTypeOfDrug": "Bulk",
     "drugType": "Inhaler",
     "stockQuantity": 32630

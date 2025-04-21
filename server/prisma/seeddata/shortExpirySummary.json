@@ -3,42 +3,42 @@
     "productId": "002B",
     "productName": "Amoxicillin",
     "category": "BHT",
-    "expirationDate": "2025-09-22",
+    "expirationDate": "2025-09-22T00:00:00.000Z",
     "remainingQuantity": 180
   },
   {
     "productId": "002C",
     "productName": "Piriton",
     "category": "BHT",
-    "expirationDate": "2026-03-10",
+    "expirationDate": "2026-03-10T00:00:00.000Z",
     "remainingQuantity": 134
   },
   {
     "productId": "003A",
     "productName": "Ciprofloxacin",
     "category": "Bulk",
-    "expirationDate": "2025-12-01",
+    "expirationDate": "2025-12-01T00:00:00.000Z",
     "remainingQuantity": 220
   },
   {
     "productId": "004D",
     "productName": "Paracetamol",
     "category": "Necessary drugs",
-    "expirationDate": "2026-01-15",
+    "expirationDate": "2026-01-15T00:00:00.000Z",
     "remainingQuantity": 90
   },
   {
     "productId": "005E",
     "productName": "Metronidazole",
     "category": "Bulk",
-    "expirationDate": "2025-11-30",
+    "expirationDate": "2025-11-30T00:00:00.000Z",
     "remainingQuantity": 310
   },
   {
     "productId": "006F",
     "productName": "Salbutamol",
     "category": "BHT",
-    "expirationDate": "2026-06-10",
+    "expirationDate": "2026-06-10T00:00:00.000Z",
     "remainingQuantity": 145
   }
 ]

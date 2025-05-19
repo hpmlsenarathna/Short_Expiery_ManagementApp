@@ -1,44 +1,44 @@
 [
   {
-    "productId": "001A",
-    "productName": "Amoxicillin",
+    "productId": "P002",
+    "drugName": "Amoxicillin",
     "category": "Bulk",
-    "stockQuantity": 320,
+    "stockQuantity": 75000,
     "timestamp": "2023-12-10T09:15:00Z"
   },
   {
-    "productId": "002C",
-    "productName": "Piriton",
-    "category": "BHT",
-    "stockQuantity": 471,
+    "productId": "P007",
+    "drugName": "Salbutamol",
+    "category": "Bulk",
+    "stockQuantity": 32630,
     "timestamp": "2025-02-01T13:04:43Z"
   },
   {
-    "productId": "003B",
-    "productName": "Paracetamol",
-    "category": "Necessary drugs",
-    "stockQuantity": 650,
+    "productId": "P001",
+    "drugName": "Paracetamol",
+    "category": "BHT",
+    "stockQuantity": 120000,
     "timestamp": "2023-11-05T07:30:00Z"
   },
   {
-    "productId": "004D",
-    "productName": "Ciprofloxacin",
+    "productId": "P004",
+    "drugName": "Ibuprofen",
     "category": "Bulk",
-    "stockQuantity": 290,
+    "stockQuantity": 48000,
     "timestamp": "2024-04-12T11:25:00Z"
   },
   {
-    "productId": "005E",
-    "productName": "Metronidazole",
-    "category": "Necessary drugs",
-    "stockQuantity": 410,
+    "productId": "P005",
+    "drugName": "Ceftriaxone",
+    "category": "Bulk",
+    "stockQuantity": 20500,
     "timestamp": "2024-06-28T08:55:00Z"
   },
   {
-    "productId": "006F",
-    "productName": "Loratadine",
+    "productId": "P006",
+    "drugName": "Loratadine",
     "category": "BHT",
-    "stockQuantity": 175,
+    "stockQuantity": 18000,
     "timestamp": "2023-10-20T14:00:00Z"
   }
 ]

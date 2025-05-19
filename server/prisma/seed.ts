@@ -20,23 +20,22 @@ async function deleteAllData(orderedModelNames: string[]) {
 async function main() {
   const dataDirectory = path.join(__dirname, "seedData");
 
-  // ORDER MATTERS: Seed models respecting foreign key constraints
   const orderedModels = [
-    "releasedSummary",
-    "shortExpirySummary",
-    "releasedByCategory",
-    "remainingFullStock",
-    "stocks",
+    "users",
     "products",
+    "stocks",
     "orders",
     "released",
-    "users"
+    "releasedByCategory",
+    "remainingFullStock",
+    "shortExpirySummary",
+    "releasedSummary"
   ];
 
-  // Step 1: Delete all data (in reverse dependency order)
-  await deleteAllData(orderedModels.reverse());
+  // Step 1: Delete all data in reverse dependency order
+  await deleteAllData([...orderedModels].reverse()); // Don't mutate the original array
 
-  // Step 2: Seed data (in correct dependency order)
+  // Step 2: Seed data in correct dependency order
   for (const modelName of orderedModels) {
     const filePath = path.join(dataDirectory, `${modelName}.json`);
 

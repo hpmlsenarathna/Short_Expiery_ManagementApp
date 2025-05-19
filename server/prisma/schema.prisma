@@ -16,7 +16,7 @@ datasource db {
 
 model Users {
   id       String     @id @default(uuid())
-  userId  String
+  userId  String      @unique
   name     String
   email    String     @unique
 }
@@ -29,15 +29,13 @@ model Products {
   stockQuantity   Int
   stocks              Stocks[]
   orders              Orders[]
-  released            Released[]
   remainingFullStock  RemainingFullStock[] // One-to-one relation (optional)
-  shortExpirySummary  ShortExpirySummary[]  // One-to-one relation (optional)
 }
 
 model Stocks {
    id            String   @id @default(uuid())
-  productId     String
-  productName   String
+  productId     String @unique
+  drugName      String
   category      String
   stockQuantity Int
   timestamp     DateTime
@@ -47,7 +45,7 @@ remainingFullStock  RemainingFullStock[]
 
 model Orders {
   id            String   @id @default(cuid())
-  productId     String
+  productId     String @unique
   productName   String
   stockQuantity Int
   ward          Int
@@ -56,14 +54,13 @@ model Orders {
 }
 
 model Released {
- releaseId        String   @id @default(uuid())
-  productId        String
+  id            String   @id @default(cuid())
+ releasedId        String @unique
   productName      String
   releaseDate      DateTime
   category         String
   ward             Int
   releasedQuantity Int
-  product    Products  @relation(fields: [productId], references: [productId])
   releasedByCategory  ReleasedByCategory[]  // One-to-many relation to ReleasedByCategory
   releasedSummary      ReleasedSummary[] 
   remainingFullStock  RemainingFullStock[]     // One-to-many relation
@@ -93,6 +90,16 @@ model RemainingFullStock {
   shortExpirySummary   ShortExpirySummary[] 
 }
 
+model ShortExpirySummary {
+   id                String   @id @default(uuid())
+  productId         String   @unique
+  productName       String
+  category          String
+  expirationDate    DateTime
+  remainingQuantity Int
+  remainingFullStock  RemainingFullStock[]
+}
+
 model ReleasedSummary {
    id               String  @id @default(uuid())
   releasedId       String
@@ -105,13 +112,3 @@ model ReleasedSummary {
 remainingFullStock  RemainingFullStock[]
 }
 
-model ShortExpirySummary {
-   id                String   @id @default(uuid())
-  productId         String   @unique
-  productName       String
-  category          String
-  expirationDate    DateTime
-  remainingQuantity Int
-  product       Products  @relation(fields: [productId], references: [productId])
-remainingFullStock  RemainingFullStock[]
-}

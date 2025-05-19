@@ -1,7 +1,6 @@
 [
   {
-    "releaseId": "002C",
-    "productId": "002C",
+    "releasedId": "002C",
     "productName": "Piriton",
     "releaseDate": "2025-06-22T09:49:33Z",
     "category": "BHT",
@@ -9,8 +8,7 @@
     "releasedQuantity": 66
   },
   {
-    "releaseId": "003D",
-    "productId": "003D",
+    "releasedId": "003D",
     "productName": "Paracetamol",
     "releaseDate": "2025-07-10T10:11:12Z",
     "category": "Necessary",
@@ -18,8 +16,7 @@
     "releasedQuantity": 150
   },
   {
-    "releaseId": "004E",
-    "productId": "004E",
+    "releasedId": "004E",
     "productName": "Ibuprofen",
     "releaseDate": "2025-07-15T12:00:00Z",
     "category": "Bulk",
@@ -27,8 +24,7 @@
     "releasedQuantity": 80
   },
   {
-    "releaseId": "005F",
-    "productId": "005F",
+    "releasedId": "005F",
     "productName": "Aspirin",
     "releaseDate": "2025-08-02T14:30:00Z",
     "category": "BHT",
@@ -36,8 +32,7 @@
     "releasedQuantity": 120
   },
   {
-    "releaseId": "006G",
-    "productId": "006G",
+    "releasedId": "006G",
     "productName": "Salbutamol",
     "releaseDate": "2025-08-15T09:00:00Z",
     "category": "Necessary",
